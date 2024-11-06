@@ -29,7 +29,6 @@ const App = () => {
       <PaperProvider>
         <ImdosProvider>
           <Stack.Navigator>
-            {/* <Stack.Screen name="Categories" component={Categories} /> */}
             <Stack.Screen
               name="Check Page"
               component={CheckPage}
